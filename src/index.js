@@ -2,12 +2,29 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import NewIndex from './components/new-index';
 import reportWebVitals from './reportWebVitals';
+// import {BrowserRouter, Route, Routes} from 'react-router-dom';
+
+// export default function App2() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/" element={<App />}>
+//           <Route path="fluke" element={<NewIndex />} />
+//         </Route>
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// }
+
+// ReactDOM.render(<App2 />, document.getElementById("root"));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {/* <NewIndex /> */}
   </React.StrictMode>
 );
 
